@@ -1,10 +1,6 @@
 # Image Annotaion Tool using React
 
----
-
 ## Table of contents
-
----
 
 - General Description
 - Technologies Used
@@ -32,16 +28,19 @@ App is built using
 - Provided a ‘Submit’ button to download the annotations in the form of JSON.
 
 Structure of JSON file:
+
+```Javascript
 {
-"<IMAGE_ID>": [
-// array of all bounding boxes of the image
-{
-"x1": "<number>", // left coordinate of the box
-"y1": "<number>", // top coordinate of the box
-"x2": "<number>", // right coordinate of the box
-"y2": "<number>" // bottom coordinate of the box
+    "<IMAGE_ID>": [
+        // array of all bounding boxes of the image
+        {
+            "x1": "<number>", // left coordinate of the box
+            "y1": "<number>", // top coordinate of the box
+            "x2": "<number>", // right coordinate of the box
+            "y2": "<number>" // bottom coordinate of the box
+        }
+    ]
 }
-]
-}
+```
 
 ### Launch
