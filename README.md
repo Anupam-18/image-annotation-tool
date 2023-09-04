@@ -44,3 +44,5 @@ Structure of JSON file:
 ```
 
 ### Launch
+
+- App is live at (https://image-annotation.netlify.app/)
