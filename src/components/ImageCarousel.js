@@ -42,7 +42,7 @@ const ImageCarousel = () => {
     canvasOffSetX.current = canvasOffSet.top;
     canvasOffSetY.current = canvasOffSet.left;
     setBoundingBoxCordinates([]);
-  }, [imageIndex, ImageData?.images]);
+  }, [imageIndex, ImageData?.images, setBoundingBoxCordinates]);
 
   //box is being drawn and co-ordinated being saved
   const startDrawingRectangle = (e) => {
